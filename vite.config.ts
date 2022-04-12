@@ -16,9 +16,6 @@ const config = defineConfig({
   define: {
     'process.env': env
   },
-  build: {
-    outDir: "../public/views",
-  },
   resolve: {
     alias: {
       "@/": `${resolve(__dirname, "src")}/`
